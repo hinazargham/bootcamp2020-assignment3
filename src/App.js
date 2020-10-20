@@ -8,7 +8,7 @@ function App(props) {
   return <div>
   <h1 > BOOTCAMP2020 CLASS {props.session} ({props.class} Class)</h1>
   <h2>ASSIGNMENT no. {props.assignment}</h2>
-  <h2> Topic: REACT TUTORIAL by {props.teachers}</h2>
+  <h2> Topic: "REACT TUTORIAL" by {props.teachers}</h2>
 <br />
 <br />
 <br />

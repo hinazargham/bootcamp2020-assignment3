@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Student from './student.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App(props) {
+
+  return <div>
+  <h1 > BOOTCAMP2020 CLASS {props.session} ({props.class} Class)</h1>
+  <h2>ASSIGNMENT no. {props.assignment}</h2>
+  <h2> Topic: REACT TUTORIAL by {props.teachers}</h2>
+<br />
+<br />
+<br />
+<br />
+
+<Student name= "Hina Zargham" hello="student.js"/>
+
+</div>
+
 }
 
 export default App;
